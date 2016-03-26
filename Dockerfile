@@ -1,7 +1,7 @@
 FROM python:3-alpine
 MAINTAINER Matt Bodenhamer <mbodenhamer@mbodenhamer.com>
 
-RUN apk update && apk add \
+RUN apk add --no-cache \
     bash \
     gcc \
     libc-dev \
