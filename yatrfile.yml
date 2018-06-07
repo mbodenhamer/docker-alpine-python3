@@ -8,7 +8,7 @@ include:
 macros:
   urlbase: https://raw.githubusercontent.com/mbodenhamer/yatrfiles/master/yatrfiles
   name: alpine-python3
-  version: "0.1"
+  version: "0.2"
 
   example_base: "{{run_prefix}} {{image}}:latest"
   example_1: "{{example_base}}"
