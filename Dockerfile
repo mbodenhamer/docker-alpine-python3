@@ -4,7 +4,9 @@ MAINTAINER Matt Bodenhamer <mbodenhamer@mbodenhamer.com>
 
 RUN apk add --no-cache \
     bash \
+    curl \
     gcc \
+    git \
     libc-dev \
     make
 

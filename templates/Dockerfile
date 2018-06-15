@@ -4,7 +4,9 @@ MAINTAINER {{maintainer_name}} <{{maintainer_email}}>
 
 RUN apk add --no-cache \
     bash \
+    curl \
     gcc \
+    git \
     libc-dev \
     make
 
